@@ -1,0 +1,241 @@
+@font-face {
+    font-family: "JakartaSans";
+    src: url(assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: hsl(210, 60%, 98%);
+    font-family: "JakartaSans", sans-serif;
+}
+
+.layout {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+    padding-bottom: 1%;
+    background-color: white;
+    width: 560px;
+    border-radius: 10px;   
+}
+
+.header {
+    margin: 0% 0% 4% 1.5%;
+}
+
+.notifs {
+    font-size: large;
+    font-weight: 900;
+}
+
+#num_notif {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    height: 17px;
+    width: 22px;
+    margin-left: 4px;
+    color: white;
+    background-color: hsl(219, 85%, 26%);
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+#dot1 {
+    margin-left: 4px;
+    height: 6px;
+    width: 6px;
+    background-color: #e32323;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#dot2 {
+    margin-left: 4px;
+    height: 6px;
+    width: 6px;
+    background-color: #e32323;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#dot3 {
+    margin-left: 4px;
+    height: 6px;
+    width: 6px;
+    background-color: #e32323;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mark {
+    color: rgb(112, 109, 109);
+    background-color: white;
+    font-size:12px;
+    float: right;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    float: right;
+}
+
+.pfp{
+    display: block;
+    height: 40px;
+    width: 40px;
+    height: auto;
+    float: left;
+}
+
+.picture {
+    display: block;
+    height: 40px;
+    width: 40px;
+    height: auto;
+    float: right;
+}
+
+.tab {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    display: block;
+    width: auto;
+    margin: auto;
+    padding-left: 2%;
+    margin-left: 2%;
+    font-family: "JakartaSans", sans-serif;
+    overflow: hidden;
+}
+
+.post {
+    color: #53585b;
+    font-weight: 800;
+}
+
+.group {
+    color:hsl(219, 85%, 26%);
+    font-weight: 800;
+}
+
+.message {
+    display: block;
+    width: auto;
+    margin: auto;
+    margin-right: 15px;
+    padding: 12px;
+    border-style: solid;
+    border-color: rgb(198, 184, 184);
+    border-width: 0.5px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.name{
+    font-weight: 800;
+}
+
+#tabc_unread1 {
+    display: block;
+    background-color: #F6FAFD;
+    color: black;
+    padding: 2%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97.5%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+#tabc_unread2 {
+    display: block;
+    background-color: #F6FAFD;
+    color: black;
+    padding: 2%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97.5%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+#tabc_unread3 {
+    display: block;
+    background-color: #F6FAFD;
+    color: black;
+    padding: 2%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97.5%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    user-select: text;
+}
+
+.tabc_read {
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 2%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97.5%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    cursor: default;
+    user-select: text;
+}
+
+.time {
+    margin: 5px 0px 5px 0px;
+    color: #5f6467;
+    display: inline-block;
+    width: 70%;
+    overflow: none;
+}
+
+.attribution {
+    padding: 2%;
+    display: block;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

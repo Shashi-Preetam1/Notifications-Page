@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Notifications page</title>
+  <script src="myScript.js"></script>
+  
+
+</head>
+
+<body>
+  <div class="layout">
+    <div class="tab">
+      <p class="header"><span class="notifs">Notifications</span> <span id="num_notif">3</span>
+
+      <button class="mark" type="button" onclick="unread1();unread2();unread3();notifs(3)">Mark all as read</button></p>
+
+      <button id="tabc_unread1" type="button" onclick="notifs(1);unread1()"><img src="assets/images/avatar-mark-webber.webp" class="pfp"><p class="text"><span class="name">Mark Webber</span> reacted to your recent post <span class="post">My first tournament today!</span><span id="dot1"></span>
+      <span class="time">1m ago</span></p></button>
+
+      <button id="tabc_unread2" type="button" onclick="notifs(1);unread2()"><img src="assets/images/avatar-angela-gray.webp" class="pfp"><p class="text"><span class="name">Angela Gray</span> followed you<span id="dot2"></span>
+      <span class="time">5m ago</span></p></button>
+
+      <button id="tabc_unread3" type="button" onclick="notifs(1);unread3()"><img src="assets/images/avatar-jacob-thompson.webp" class="pfp"><p class="text"><span class="name">Jacob Thompson</span> has joined your group <span class="group">Chess Club</span><span id="dot3"></span>
+      <span class="time">1 day ago</span></p></button>
+
+      <button class="tabc_read"><img src="assets/images/avatar-rizky-hasanuddin.webp" class="pfp"><p class="text"><span class="name">RizkyHasanuddin</span> sent you a private message
+      <span class="time">5 days ago</span>
+      <span class="message">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</span></p></button>
+
+      <button class="tabc_read"><img src="assets/images/avatar-kimberly-smith.webp" class="pfp"><p class="text"><span class="name">Kimberly Smith</span> commented on your picture<img src="assets/images/image-chess.webp" class="picture">
+      <span class="time">1 week ago</span></button>
+
+      <button class="tabc_read"><img src="assets/images/avatar-nathan-peterson.webp" class="pfp"><p class="text"><span class="name">Nathan Peterson</span> reacted to your recent post <span class="post">5 end-game strategies to increase your win rate</span>
+      <span class="time">2 weeks ago</span></button>
+
+      <button class="tabc_read"><img src="assets/images/avatar-anna-kim.webp" class="pfp"><p class="text"><span class="name">Anna Kim</span> left the group <span class="group">Chess Club</span>
+      <span class="time">2 weeks ago</span></button>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Shashi Preetam</a>.
+  </div>
+  
+</body>
+
+</html>
