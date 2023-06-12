@@ -44,7 +44,7 @@ body {
     vertical-align: middle;
 }
 
-#dot1 {
+#dot1, #dot2, #dot3 {
     margin-left: 4px;
     height: 6px;
     width: 6px;
@@ -52,27 +52,7 @@ body {
     border-radius: 50%;
     display: inline-block;
     vertical-align: middle;
-}
-
-#dot2 {
-    margin-left: 4px;
-    height: 6px;
-    width: 6px;
-    background-color: #e32323;
-    border-radius: 50%;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-#dot3 {
-    margin-left: 4px;
-    height: 6px;
-    width: 6px;
-    background-color: #e32323;
-    border-radius: 50%;
-    display: inline-block;
-    vertical-align: middle;
-}
+} 
 
 .mark {
     color: rgb(112, 109, 109);
@@ -146,7 +126,7 @@ body {
     font-weight: 800;
 }
 
-#tabc_unread1 {
+#tabc_unread1, #tabc_unread2, #tabc_unread3 {
     display: block;
     background-color: #F6FAFD;
     color: black;
@@ -162,43 +142,6 @@ body {
     cursor: pointer;
     transition: 0.3s;
     border-radius: 5px;
-}
-
-#tabc_unread2 {
-    display: block;
-    background-color: #F6FAFD;
-    color: black;
-    padding: 2%;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 97.5%;
-    border: none;
-    outline: none;
-    text-align: left;
-    cursor: pointer;
-    transition: 0.3s;
-    border-radius: 5px;
-}
-
-#tabc_unread3 {
-    display: block;
-    background-color: #F6FAFD;
-    color: black;
-    padding: 2%;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 97.5%;
-    border: none;
-    outline: none;
-    text-align: left;
-    cursor: pointer;
-    transition: 0.3s;
-    border-radius: 5px;
-    user-select: text;
 }
 
 .tabc_read {
